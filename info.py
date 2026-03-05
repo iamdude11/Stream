@@ -33,12 +33,12 @@ DB_NAME = environ.get('DATABASE_NAME', "testing")
 # 📢 CHANNELS & LOGS
 # =========================================================
 # Mandatory Channels
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003821407875'))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003728076805'))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003728076805'))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003747465902'))
 
 # Feature Specific Logs
 PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003884967748'))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003859075708'))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003821407875'))
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002312629309"))
 
 # Auth Channels (Safe Parsing)
